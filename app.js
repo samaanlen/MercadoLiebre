@@ -10,7 +10,7 @@ app.get ("/home", (req, res) => {
 
 
 
-app.listen(3000, () =>{ 
+app.listen(process.env.PORT || 3000, () =>{ 
     console.log ("servidor coerriendo en puerto 3000")
 })
 
